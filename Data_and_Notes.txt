@@ -1,0 +1,23 @@
+--- HR ATTRITION ANALYSIS TECHNICAL DOCUMENTATION ---
+
+This file documents the data cleaning and feature engineering steps performed in Excel, serving as proof of advanced data manipulation and modeling proficiency.
+
+1. DATA CLEANING AND VALIDATION:
+- Verified data integrity across all 35 columns and 1,470 employee records.
+- Standardized text entries (e.g., ensuring all "Research & Development" entries were consistent).
+- Confirmed 'Attrition' column (Yes/No) was correctly formatted for KPI calculations.
+
+2. FEATURE ENGINEERING (ADVANCED CALCULATIONS):
+The following calculated features were added to the dataset to enable deeper multivariate analysis, which were key to the dashboard's effectiveness:
+
+A. AGE BRACKET: Categorized employee age (e.g., "18-25", "26-35", "35-45", "46-55", "56 and above").
+   - Purpose: To isolate if attrition risk changes significantly by age.
+
+B. EXPERIENCE LEVEL: Categorized based on 'YearsAtCompany' and 'TotalWorkingYears'.
+   - Purpose: To identify flight risk among mid-level employees vs. long-term veterans.
+
+C. TENURE RATIO: Calculated as (YearsAtCompany / TotalWorkingYears).
+   - Purpose: Measures the proportion of an employee's career spent at the current company. A low ratio can indicate a high turnover history.
+
+3. KPI CALCULATION:
+- Attrition Rate % was calculated as (SUM(Attrition="Yes") / COUNT(EmployeeID)). This rate was the primary metric used in all dashboard visuals.
