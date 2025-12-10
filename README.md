@@ -41,6 +41,6 @@ The interactive dashboard (titled "IBM Workforce Analytics Dashboard" in the vis
 * **`README.md`**: This narrative and visual guide to the project.
 * **`Data_and_Notes.txt`**: This document contains the methodology notes and details the specific calculated features used in the analysis. 
 ### Dashboard Visual Preview
-![Interactive HR Attrition Dashboard](https://raw.githubusercontent.com/demitheanalyst/HR_Attrition_Analysis_Excel/main/HR_Dashboard_v1.png))
+![Interactive HR Attrition Dashboard]([https://raw.githubusercontent.com/demitheanalyst/HR_Attrition_Analysis_Excel/main/HR_Dashboard_v1.png)](https://raw.githubusercontent.com/ooluwatosinmile/HR_Attrition_Analysis_Excel/main/HR_Dashboard.jpg)
 
 ---
